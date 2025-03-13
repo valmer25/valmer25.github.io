@@ -1,51 +1,13 @@
-/* General Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-/* Navbar */
-.navbar {
-    padding: 15px;
-}
-
-/* Hero Section */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?nature,light') center/cover no-repeat;
-    padding: 150px 0;
-    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?technology,nature') center/cover no-repeat;
+    padding: 100px 0;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
-
-.highlight {
-    color: #007bff;
-}
-
-/* Sections */
-section {
-    margin-top: 50px;
-}
-
-/* Projects */
 .card {
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-/* Footer */
 footer {
     margin-top: 20px;
-    background-color: #fff;
-    padding: 15px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
