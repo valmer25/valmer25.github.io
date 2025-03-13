@@ -38,3 +38,8 @@ footer {
     color: white;
     padding: 10px;
 }
+
+.resized-image {
+  width: 100%;  /* Image will take up 100% of its container's width */
+  height: auto; /* Height will adjust proportionally */
+}
